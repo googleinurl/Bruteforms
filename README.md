@@ -18,14 +18,22 @@ Parâmetro arquivo:
 --arquivo: Definir arquivo com senhas.
 ex:--arquivo="senhas.txt"
 
-Parâmetro tipo: 
+Parâmetro tipo:
+
 --tipo: Existe dois tipos de validação
+
 tipo[1]: Efetua o teste de validação baseado na url de retorno.
+
 ex[1]: --tipo="1", OBS se o teste de senha
+
 retornar a url setada significa que login e senha OK.
+
 tipo[2]: Efetua o teste de validação baseado no erro de retorno.
+
 ex[2]: --tipo="2", OBS se urlpost retornar msg diferente do
+
 setado em tipo[2] é login OK. 
+
 --tipo="1" ou --tipo="2"
  
 Parâmetro validar:  
