@@ -12,14 +12,14 @@ php bruteforms.php urlpost post senhas tipo validação proxy
 
 
 Parâmetro urlpost:  
-
+==========
 --urlpost + post: Definir url de validação post
 
 ex: --urlpost="http://localhost/validarLogin.php" "usuario=admin&senha=[SENHA]",
 
 
 Parâmetro arquivo:  
-
+==========
 È necessario definir o argumento [SENHA] dessa forma o script seta senha vindo do arquivo.
 
 --arquivo: Definir arquivo com senhas.
@@ -28,7 +28,7 @@ ex:--arquivo="senhas.txt"
 
 
 Parâmetro tipo:
-
+==========
 --tipo: Existe dois tipos de validação
 
 tipo[1]: Efetua o teste de validação baseado na url de retorno.
@@ -48,7 +48,7 @@ setado em tipo[2] é login OK.
  
  
 Parâmetro validar:  
-
+==========
 --validar: Onde é armazenado o conteúdo de validação de acordo com --tipo.
 
 ex:[1]: --tipo="1" --validar="http://localhost/admin/index.php",valida com url logada.
