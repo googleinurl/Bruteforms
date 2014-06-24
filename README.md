@@ -59,7 +59,7 @@ ex:[2]: --tipo="2" --validar="login erro",valida com erro de retorno.
 
 
 Parâmetro proxy: 
-
+==========
 --proxy: Setar o proxy.
 
 ex: --proxy="exemplo:8080",OBS para não usar basta não informa o mesmo.
