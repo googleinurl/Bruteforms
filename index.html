@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Bruteforms : Força bruta em formulários web." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Bruteforms</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/googleinurl/Bruteforms">View on GitHub</a>
+
+          <h1 id="project_title">Bruteforms</h1>
+          <h2 id="project_tagline">Força bruta em formulários web.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/googleinurl/Bruteforms/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/googleinurl/Bruteforms/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Força bruta em formulários web.</p>
+
+<p>È um script feito em PHP que executa ataques de tentativa &amp; erro</p>
+
+<p>Em formulários web.</p>
+
+<p>php bruteforms.php urlpost post senhas tipo validação proxy</p>
+
+<p>Parâmetro urlpost:</p>
+
+<p>--urlpost + post: Definir url de validação post</p>
+
+<p>ex: --urlpost="http://localhost/validarLogin.php" "usuario=admin&amp;senha=[SENHA]",</p>
+
+<p>Parâmetro arquivo:</p>
+
+<p>È necessario definir o argumento [SENHA] dessa forma o script seta senha vindo do arquivo.</p>
+
+<p>--arquivo: Definir arquivo com senhas.</p>
+
+<p>ex:--arquivo="senhas.txt"</p>
+
+<p>Parâmetro tipo:</p>
+
+<p>--tipo: Existe dois tipos de validação</p>
+
+<p>tipo[1]: Efetua o teste de validação baseado na url de retorno.</p>
+
+<p>ex[1]: --tipo="1", OBS se o teste de senha</p>
+
+<p>retornar a url setada significa que login e senha OK.</p>
+
+<p>tipo[2]: Efetua o teste de validação baseado no erro de retorno.</p>
+
+<p>ex[2]: --tipo="2", OBS se urlpost retornar msg diferente do</p>
+
+<p>setado em tipo[2] é login OK.</p>
+
+<p>--tipo="1" ou --tipo="2"</p>
+
+<p>Parâmetro validar:</p>
+
+<p>--validar: Onde é armazenado o conteúdo de validação de acordo com --tipo.</p>
+
+<p>ex:[1]: --tipo="1" --validar="http://localhost/admin/index.php",valida com url logada.</p>
+
+<p>ex:[2]: --tipo="2" --validar="login erro",valida com erro de retorno.</p>
+
+<p>Parâmetro proxy:</p>
+
+<p>--proxy: Setar o proxy.</p>
+
+<p>ex: --proxy="exemplo:8080",OBS para não usar basta não informa o mesmo.</p>
+
+<p>Exemplo:</p>
+
+<p>Alvo:http://localhot</p>
+
+<p>Validação[1] por url:</p>
+
+<p>php bruteforms.php --urlpost="http://localhot/validarLogin.php" "usuario=admin&amp;senha=[SENHA]" --arquivo="senhas.txt" --tipo="1" --validar="http://localhost/admin/index.php"</p>
+
+<p>Validação[2] por erro:</p>
+
+<p>php bruteforms.php --urlpost="http://localhot/validarLogin.php" "usuario=admin&amp;senha=[SENHA]" --arquivo="senhas.txt" --tipo="2" --validar="login erro"</p>
+
+<p>Referente proxy basta o mesmo ser setado --proxy="exemplo:8080"</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Bruteforms maintained by <a href="https://github.com/googleinurl">googleinurl</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
