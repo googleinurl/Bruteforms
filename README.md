@@ -1,5 +1,4 @@
-Bruteforms
-==
+![alt text](http://2.bp.blogspot.com/-v5gi_cPS318/U6r2CC5HdDI/AAAAAAAAAIg/ZTTpLsA1hxo/s1600/logo_inurl2.png "Bruteforms Força bruta em formulários web.")
 Força bruta em formulários web.
 
 È um script feito em PHP que executa ataques de tentativa & erro.
@@ -18,7 +17,7 @@ ex: --urlpost="http://localhost/validarLogin.php" "usuario=admin&senha=[SENHA]",
 ```
 
 Parâmetro arquivo:  
-==========
+==
 
 È necessario definir o argumento [SENHA] dessa forma o script seta senha vindo do arquivo.
 
@@ -28,7 +27,7 @@ ex:--arquivo="senhas.txt"
 ```
 
 Parâmetro tipo:
-==========
+==
 
 **--tipo:** Existe dois tipos de validação
 
@@ -49,7 +48,7 @@ setado em tipo[2] é login OK.
 ```
 
 Parâmetro validar:  
-==========
+==
 **--validar:** Onde é armazenado o conteúdo de validação de acordo com --tipo.
 ```
 ex:[1]: --tipo="1" --validar="http://localhost/admin/index.php",valida com url logada.
@@ -60,7 +59,7 @@ ex:[2]: --tipo="2" --validar="login erro",valida com erro de retorno.
 
 
 Parâmetro proxy: 
-==========
+==
 **--proxy:** Setar o proxy.
 ```
 ex: --proxy="exemplo:8080",OBS para não usar basta não informa o mesmo.
