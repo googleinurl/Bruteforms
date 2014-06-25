@@ -6,6 +6,14 @@
 
 >È um script feito em PHP que executa ataques de tentativa & erro em formulários web. php bruteforms.php urlpost post senhas tipo validação proxy
 
+ *  PHP Version         5.4.7
+ *  php5-curl           LIB
+ *  cURL support        enabled
+ *  cURL Information    7.24.0
+ *  Apache              2.4
+ *  allow_url_fopen =   On
+ *  Motor de busca      GOOGLE
+ *  Permição            Leitura & Escrita
 
 Parâmetro urlpost:  
 ==
