@@ -12,7 +12,6 @@
  *  cURL Information    7.24.0
  *  Apache              2.4
  *  allow_url_fopen =   On
- *  Motor de busca      GOOGLE
  *  Permição            Leitura & Escrita
 
 Parâmetro urlpost:  
